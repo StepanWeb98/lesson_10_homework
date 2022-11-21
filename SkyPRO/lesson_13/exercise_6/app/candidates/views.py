@@ -15,7 +15,7 @@ def page_candidates():
     # return render_template("candidates_index.html", candidates=candidates)
 
 # Создаем вьюшку для одного кандидата
-@candidates_blueprint.route('/candidates/<int:pk>	/')
+@candidates_blueprint.route('/candidates/<int:pk>/')
 def page_candidate_all(pk):
     candidate = candidates_dao.get_by_pk(pk)
     return render_template("candidates_single.html", candidate=candidate)

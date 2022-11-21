@@ -1,6 +1,6 @@
-from app.candidates.dao.candidate_dao import CandidateDAO
-
 import pytest
+
+
 
 # Нам пригодится экземпляр DAO, так что мы создадим его в фикстуре
 # Но пригодится только один раз, поэтому выносить в conftest не будем

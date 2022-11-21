@@ -1,7 +1,5 @@
 import json
-
-class CandidateDAO:
-
+class CandidateDAO():
     def __init__(self, path):
         """ При создании экземпляра DAO нужно указать путь к файлу с данными"""
         self.path = path
